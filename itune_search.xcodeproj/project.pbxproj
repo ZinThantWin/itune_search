@@ -14,6 +14,7 @@
 		53C629F12C857A180018FE35 /* itune_searchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C629F02C857A180018FE35 /* itune_searchTests.swift */; };
 		53C629FB2C857A180018FE35 /* itune_searchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C629FA2C857A180018FE35 /* itune_searchUITests.swift */; };
 		53C629FD2C857A180018FE35 /* itune_searchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C629FC2C857A180018FE35 /* itune_searchUITestsLaunchTests.swift */; };
+		53C62A0E2C857A530018FE35 /* Superprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C62A0D2C857A530018FE35 /* Superprint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		53C629F62C857A180018FE35 /* itune_searchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = itune_searchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C629FA2C857A180018FE35 /* itune_searchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itune_searchUITests.swift; sourceTree = "<group>"; };
 		53C629FC2C857A180018FE35 /* itune_searchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itune_searchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		53C62A0D2C857A530018FE35 /* Superprint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superprint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,10 @@
 		53C629DE2C857A170018FE35 /* itune_search */ = {
 			isa = PBXGroup;
 			children = (
+				53C62A0C2C857A440018FE35 /* Services */,
+				53C62A0B2C857A3E0018FE35 /* Model */,
+				53C62A0A2C857A390018FE35 /* ViewModel */,
+				53C62A092C857A350018FE35 /* View */,
 				53C629DF2C857A170018FE35 /* itune_searchApp.swift */,
 				53C629E12C857A170018FE35 /* ContentView.swift */,
 				53C629E32C857A180018FE35 /* Assets.xcassets */,
@@ -125,6 +131,35 @@
 				53C629FC2C857A180018FE35 /* itune_searchUITestsLaunchTests.swift */,
 			);
 			path = itune_searchUITests;
+			sourceTree = "<group>";
+		};
+		53C62A092C857A350018FE35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53C62A0A2C857A390018FE35 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		53C62A0B2C857A3E0018FE35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53C62A0C2C857A440018FE35 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				53C62A0D2C857A530018FE35 /* Superprint.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +294,7 @@
 			files = (
 				53C629E22C857A170018FE35 /* ContentView.swift in Sources */,
 				53C629E02C857A170018FE35 /* itune_searchApp.swift in Sources */,
+				53C62A0E2C857A530018FE35 /* Superprint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
